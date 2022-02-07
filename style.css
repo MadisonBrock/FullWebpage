@@ -1,3 +1,44 @@
 /* Importing the Lato Google Font (Regular & Bold) */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
+/* Basic Styles */
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    background-color: blanchedalmond;
+}
+.container{
+    width: 80%;
+    /* Evenly distribute the margin(20%) 10% on each side */
+    margin: auto;
+    /* The overflow property determines what to do if your content is overflowing, hidden- will clip the overflowing content */
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.btn-1{
+    height: 38px;
+    background-color: #eb4442;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+.light, .dark{
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.light{
+    background-color: pink;
+    color: rgb(102, 101, 101);
+}
+.dark{
+    background-color: rgb(102, 101, 101);
+    color: pink;
+}
