@@ -97,3 +97,20 @@ a:hover{
 #showcase p{
     font-size: 20px;
 }
+
+/* Newletter */
+#newsletter{
+    background-color: pink;
+    padding: 15px;
+    color: rgb(102, 101, 101);
+}
+#newsletter > .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#newsletter input{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
