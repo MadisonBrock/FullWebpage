@@ -42,3 +42,41 @@ ul{
     background-color: rgb(102, 101, 101);
     color: pink;
 }
+
+/* Header */
+header{
+    background-color: rgb(102, 101, 101);
+    color: whitesmoke;
+    /* Setting min-height so the height for the header section can expand if needed */
+    min-height: 70px;
+    border-bottom: 3px solid pink;
+    padding: 5px 0;
+}
+header > .container{
+    display: flex;
+    justify-content: space-between;
+}
+header ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+header li{
+    /* Removes the bullet point or number on a list item */
+    list-style: none;
+    padding: 0 25px;
+}
+header a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+#highlight, #current a{
+    color: palevioletred;
+    font-weight: bold;
+}
+a:hover{
+    color: #ccc;
+    font-weight: bold;
+}
