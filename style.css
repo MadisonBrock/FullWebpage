@@ -209,4 +209,5 @@ footer{
     #about > .container, #services > .container{
         grid-template-columns: 1fr;
     }
+    
 }
