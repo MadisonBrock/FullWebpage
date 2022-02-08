@@ -172,6 +172,7 @@ i{
     padding: 20px;
     margin-bottom: 5px;
     background-color: pink;
+    margin-bottom: 30px;
 }
 #services .sidebar{
     margin-top: 10px;
@@ -179,4 +180,14 @@ i{
 #services input, #services textarea{
     padding: 5px;
     width: 90%;
+    
+}
+
+/* Footer */
+footer{
+    background-color: rgb(102, 101, 101);
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
 }
