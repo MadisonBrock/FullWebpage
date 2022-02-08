@@ -149,7 +149,7 @@ i{
 #about > .container{
     /* Git the split paragraph affect */
     display: grid;
-    /* How many elements are in each column */
+    /* How many elements are in each column 2/3 on one side and 1/3 on the other.*/
     grid-template-columns: 2fr 1fr ;
     /* Space between the columns */
     grid-column-gap: 50px;
@@ -159,4 +159,24 @@ i{
 }
 #about .sidebar{
     margin-top: 10px;
+}
+
+/* Services */
+#services > .container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 50px;
+}
+#services li{
+    border: 2px dashed whitesmoke;
+    padding: 20px;
+    margin-bottom: 5px;
+    background-color: pink;
+}
+#services .sidebar{
+    margin-top: 10px;
+}
+#services input, #services textarea{
+    padding: 5px;
+    width: 90%;
 }
