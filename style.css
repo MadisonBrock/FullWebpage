@@ -140,3 +140,23 @@ i{
 .fa-js-square{
     color: #f3df50;
 }
+
+/* About */
+#about{
+    background-color: rgb(102, 101, 101);
+    padding: 20px;
+}
+#about > .container{
+    /* Git the split paragraph affect */
+    display: grid;
+    /* How many elements are in each column */
+    grid-template-columns: 2fr 1fr ;
+    /* Space between the columns */
+    grid-column-gap: 50px;
+}
+#about .main-col{
+    color: whitesmoke;
+}
+#about .sidebar{
+    margin-top: 10px;
+}
